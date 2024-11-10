@@ -1,14 +1,18 @@
 {
   "name": "layer7-dstat",
   "version": "1.0.0",
-  "description": "WebSocket Example for Vercel",
+  "description": "A simple layer7 dstat on the web",
   "main": "index.js",
   "scripts": {
-    "dev": "vercel dev",
-    "build": "vercel build",
-    "start": "vercel start"
+    "start": "node index.js"
   },
+  "keywords": [],
+  "author": "Filippo Finke",
   "dependencies": {
-    "ws": "^8.8.1"
+    "ws": "^7.2.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/filippofinke/layer7-dstat.git"
   }
 }
