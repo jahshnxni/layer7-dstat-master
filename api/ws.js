@@ -1,6 +1,6 @@
 // api/ws.js
 import { WebSocketServer } from 'ws';
-
+let ws = new WebSocket("wss://" + location.host + "/api/ws");
 export default function handler(req, res) {
   if (req.method === 'GET') {
     const wss = new WebSocketServer({ noServer: true });
